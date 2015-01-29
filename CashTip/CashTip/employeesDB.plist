@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>James Rutherford</string>
+		<key>tipCode</key>
+		<string>james142</string>
+		<key>company</key>
+		<string>Wallgreens</string>
+		<key>Location</key>
+		<string>Sutter Street, San Francisco</string>
+		<key>profilePicName</key>
+		<string>profile1.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tim Hill</string>
+		<key>tipCode</key>
+		<string>tim423</string>
+		<key>company</key>
+		<string>Hotel The Grand Del Mar</string>
+		<key>Location</key>
+		<string>San Diego, California</string>
+		<key>profilePicName</key>
+		<string>profile2.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Robert Biggs</string>
+		<key>tipCode</key>
+		<string>robby099</string>
+		<key>company</key>
+		<string>Five Pine Lodge</string>
+		<key>Location</key>
+		<string>Sisters, Oregon</string>
+		<key>profilePicName</key>
+		<string>profile3.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mary Wilson</string>
+		<key>tipCode</key>
+		<string>mary141</string>
+		<key>company</key>
+		<string>The Sherry</string>
+		<key>Location</key>
+		<string>New York City, New York</string>
+		<key>profilePicName</key>
+		<string>profile4.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lisa Philips</string>
+		<key>tipCode</key>
+		<string>lisa074</string>
+		<key>company</key>
+		<string>The Oxford Hotel</string>
+		<key>Location</key>
+		<string>Bend, Oregon</string>
+		<key>profilePicName</key>
+		<string>profile5.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Jessica Lawrence</string>
+		<key>tipCode</key>
+		<string>jessy077</string>
+		<key>company</key>
+		<string>Eden Roc Miami Beach</string>
+		<key>Location</key>
+		<string>Miami Beach, Florida</string>
+		<key>profilePicName</key>
+		<string>profile6.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Anna Taylor</string>
+		<key>tipCode</key>
+		<string>Anna121</string>
+		<key>company</key>
+		<string>Hotel Mazarin</string>
+		<key>Location</key>
+		<string>New Orleans, Los Angeles</string>
+		<key>profilePicName</key>
+		<string>profile7.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Laura Young</string>
+		<key>tipCode</key>
+		<string>laura333</string>
+		<key>company</key>
+		<string>The Hay-Adams Hotel</string>
+		<key>Location</key>
+		<string>Washington DC</string>
+		<key>profilePicName</key>
+		<string>profile8.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kevin Moore</string>
+		<key>tipCode</key>
+		<string>kevin224</string>
+		<key>company</key>
+		<string>Blackberry Farm</string>
+		<key>Location</key>
+		<string>Walland, Tennessee</string>
+		<key>profilePicName</key>
+		<string>profile9.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Daniel Martin</string>
+		<key>tipCode</key>
+		<string>danny453</string>
+		<key>company</key>
+		<string>Marriot Hotel</string>
+		<key>Location</key>
+		<string>New Orleans, Los Angeles</string>
+		<key>profilePicName</key>
+		<string>profile10.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Chris Thomas</string>
+		<key>tipCode</key>
+		<string>chris290</string>
+		<key>company</key>
+		<string>Hotel Le Meridian</string>
+		<key>Location</key>
+		<string>Atlanta, Georgia</string>
+		<key>profilePicName</key>
+		<string>profile11.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ashley White</string>
+		<key>tipCode</key>
+		<string>ashley366</string>
+		<key>company</key>
+		<string>Hotel Fusion</string>
+		<key>Location</key>
+		<string>Ellis Street, San Francisco</string>
+		<key>profilePicName</key>
+		<string>profile12.png</string>
+	</dict>
+</array>
+</plist>

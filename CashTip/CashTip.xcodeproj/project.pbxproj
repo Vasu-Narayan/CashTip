@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64049FC91A3F18C9002E9A27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64049FC81A3F18C9002E9A27 /* main.m */; };
+		64049FCC1A3F18C9002E9A27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64049FCB1A3F18C9002E9A27 /* AppDelegate.m */; };
+		64049FD21A3F18C9002E9A27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64049FD01A3F18C9002E9A27 /* Main.storyboard */; };
+		64049FD41A3F18C9002E9A27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64049FD31A3F18C9002E9A27 /* Images.xcassets */; };
+		64049FD71A3F18C9002E9A27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64049FD51A3F18C9002E9A27 /* LaunchScreen.xib */; };
+		64049FE31A3F18C9002E9A27 /* CashTipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64049FE21A3F18C9002E9A27 /* CashTipTests.m */; };
+		64049FF11A3F190C002E9A27 /* CTEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 64049FF01A3F190C002E9A27 /* CTEmployee.m */; };
+		64904EA71A3F1BF60018CA75 /* CTLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64904EA61A3F1BF60018CA75 /* CTLandingViewController.m */; };
+		64904EAA1A3F3E0F0018CA75 /* CTEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 64904EA91A3F3E0F0018CA75 /* CTEngine.m */; };
+		64904EAC1A3F3FAF0018CA75 /* employeesDB.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64904EAB1A3F3FAF0018CA75 /* employeesDB.plist */; };
+		64904EB21A3F46700018CA75 /* UIAlertView+MKBlockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 64904EB11A3F46700018CA75 /* UIAlertView+MKBlockAdditions.m */; };
+		64904EB51A3F4B820018CA75 /* CTEmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64904EB41A3F4B820018CA75 /* CTEmployeeViewController.m */; };
+		64904EB81A3F4B8F0018CA75 /* CTAddTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64904EB71A3F4B8F0018CA75 /* CTAddTipViewController.m */; };
+		64904EBF1A3F57290018CA75 /* profile1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64904EBA1A3F57290018CA75 /* profile1.png */; };
+		64904EC01A3F57290018CA75 /* profile2.png in Resources */ = {isa = PBXBuildFile; fileRef = 64904EBB1A3F57290018CA75 /* profile2.png */; };
+		64904EC11A3F57290018CA75 /* profile3.png in Resources */ = {isa = PBXBuildFile; fileRef = 64904EBC1A3F57290018CA75 /* profile3.png */; };
+		64904EC21A3F57290018CA75 /* profile4.png in Resources */ = {isa = PBXBuildFile; fileRef = 64904EBD1A3F57290018CA75 /* profile4.png */; };
+		64904EC31A3F57290018CA75 /* profile5.png in Resources */ = {isa = PBXBuildFile; fileRef = 64904EBE1A3F57290018CA75 /* profile5.png */; };
+		64904EC61A3F5E550018CA75 /* 37x-Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 64904EC41A3F5E550018CA75 /* 37x-Checkmark.png */; };
+		64904EC71A3F5E550018CA75 /* 37x-Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64904EC51A3F5E550018CA75 /* 37x-Checkmark@2x.png */; };
+		64904ECA1A3F61A80018CA75 /* CTTipCodeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64904EC91A3F61A80018CA75 /* CTTipCodeListViewController.m */; };
+		64904ED21A3F6F630018CA75 /* profile6.png in Resources */ = {isa = PBXBuildFile; fileRef = 64904ECB1A3F6F630018CA75 /* profile6.png */; };
+		64904ED31A3F6F630018CA75 /* profile7.png in Resources */ = {isa = PBXBuildFile; fileRef = 64904ECC1A3F6F630018CA75 /* profile7.png */; };
+		64904ED41A3F6F630018CA75 /* profile8.png in Resources */ = {isa = PBXBuildFile; fileRef = 64904ECD1A3F6F630018CA75 /* profile8.png */; };
+		64904ED51A3F6F630018CA75 /* profile9.png in Resources */ = {isa = PBXBuildFile; fileRef = 64904ECE1A3F6F630018CA75 /* profile9.png */; };
+		64904ED61A3F6F630018CA75 /* profile10.png in Resources */ = {isa = PBXBuildFile; fileRef = 64904ECF1A3F6F630018CA75 /* profile10.png */; };
+		64904ED71A3F6F630018CA75 /* profile11.png in Resources */ = {isa = PBXBuildFile; fileRef = 64904ED01A3F6F630018CA75 /* profile11.png */; };
+		64904ED81A3F6F630018CA75 /* profile12.png in Resources */ = {isa = PBXBuildFile; fileRef = 64904ED11A3F6F630018CA75 /* profile12.png */; };
+		EDDB5B358798FE9DBD4329F9 /* libPods-CashTip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D57F366EC776079A7C34834 /* libPods-CashTip.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64049FDD1A3F18C9002E9A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64049FBB1A3F18C9002E9A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64049FC21A3F18C9002E9A27;
+			remoteInfo = CashTip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B89274DBFE35E1CBEA3BA1 /* Pods-CashTip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashTip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CashTip/Pods-CashTip.debug.xcconfig"; sourceTree = "<group>"; };
+		2E86EC51D16255AB734CCBFC /* Pods-CashTip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashTip.release.xcconfig"; path = "Pods/Target Support Files/Pods-CashTip/Pods-CashTip.release.xcconfig"; sourceTree = "<group>"; };
+		64049FC31A3F18C9002E9A27 /* CashTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64049FC71A3F18C9002E9A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64049FC81A3F18C9002E9A27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64049FCA1A3F18C9002E9A27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64049FCB1A3F18C9002E9A27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64049FD11A3F18C9002E9A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64049FD31A3F18C9002E9A27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		64049FD61A3F18C9002E9A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		64049FDC1A3F18C9002E9A27 /* CashTipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashTipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64049FE11A3F18C9002E9A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64049FE21A3F18C9002E9A27 /* CashTipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashTipTests.m; sourceTree = "<group>"; };
+		64049FEF1A3F190C002E9A27 /* CTEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTEmployee.h; sourceTree = "<group>"; };
+		64049FF01A3F190C002E9A27 /* CTEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTEmployee.m; sourceTree = "<group>"; };
+		64904EA51A3F1BF60018CA75 /* CTLandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTLandingViewController.h; sourceTree = "<group>"; };
+		64904EA61A3F1BF60018CA75 /* CTLandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTLandingViewController.m; sourceTree = "<group>"; };
+		64904EA81A3F3E0F0018CA75 /* CTEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTEngine.h; sourceTree = "<group>"; };
+		64904EA91A3F3E0F0018CA75 /* CTEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTEngine.m; sourceTree = "<group>"; };
+		64904EAB1A3F3FAF0018CA75 /* employeesDB.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = employeesDB.plist; sourceTree = "<group>"; };
+		64904EAF1A3F46700018CA75 /* MKBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBlockAdditions.h; sourceTree = "<group>"; };
+		64904EB01A3F46700018CA75 /* UIAlertView+MKBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MKBlockAdditions.h"; sourceTree = "<group>"; };
+		64904EB11A3F46700018CA75 /* UIAlertView+MKBlockAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MKBlockAdditions.m"; sourceTree = "<group>"; };
+		64904EB31A3F4B820018CA75 /* CTEmployeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTEmployeeViewController.h; sourceTree = "<group>"; };
+		64904EB41A3F4B820018CA75 /* CTEmployeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTEmployeeViewController.m; sourceTree = "<group>"; };
+		64904EB61A3F4B8F0018CA75 /* CTAddTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAddTipViewController.h; sourceTree = "<group>"; };
+		64904EB71A3F4B8F0018CA75 /* CTAddTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAddTipViewController.m; sourceTree = "<group>"; };
+		64904EBA1A3F57290018CA75 /* profile1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile1.png; sourceTree = "<group>"; };
+		64904EBB1A3F57290018CA75 /* profile2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile2.png; sourceTree = "<group>"; };
+		64904EBC1A3F57290018CA75 /* profile3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile3.png; sourceTree = "<group>"; };
+		64904EBD1A3F57290018CA75 /* profile4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile4.png; sourceTree = "<group>"; };
+		64904EBE1A3F57290018CA75 /* profile5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile5.png; sourceTree = "<group>"; };
+		64904EC41A3F5E550018CA75 /* 37x-Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark.png"; sourceTree = "<group>"; };
+		64904EC51A3F5E550018CA75 /* 37x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark@2x.png"; sourceTree = "<group>"; };
+		64904EC81A3F61A80018CA75 /* CTTipCodeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTTipCodeListViewController.h; sourceTree = "<group>"; };
+		64904EC91A3F61A80018CA75 /* CTTipCodeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTTipCodeListViewController.m; sourceTree = "<group>"; };
+		64904ECB1A3F6F630018CA75 /* profile6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile6.png; sourceTree = "<group>"; };
+		64904ECC1A3F6F630018CA75 /* profile7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile7.png; sourceTree = "<group>"; };
+		64904ECD1A3F6F630018CA75 /* profile8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile8.png; sourceTree = "<group>"; };
+		64904ECE1A3F6F630018CA75 /* profile9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile9.png; sourceTree = "<group>"; };
+		64904ECF1A3F6F630018CA75 /* profile10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile10.png; sourceTree = "<group>"; };
+		64904ED01A3F6F630018CA75 /* profile11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile11.png; sourceTree = "<group>"; };
+		64904ED11A3F6F630018CA75 /* profile12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile12.png; sourceTree = "<group>"; };
+		6D57F366EC776079A7C34834 /* libPods-CashTip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CashTip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64049FC01A3F18C9002E9A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDB5B358798FE9DBD4329F9 /* libPods-CashTip.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64049FD91A3F18C9002E9A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64049FBA1A3F18C9002E9A27 = {
+			isa = PBXGroup;
+			children = (
+				64049FC51A3F18C9002E9A27 /* CashTip */,
+				64049FDF1A3F18C9002E9A27 /* CashTipTests */,
+				64049FC41A3F18C9002E9A27 /* Products */,
+				B3840C029C180D607DE6B0F6 /* Pods */,
+				E9DE0A7A51B2499216651A91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64049FC41A3F18C9002E9A27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64049FC31A3F18C9002E9A27 /* CashTip.app */,
+				64049FDC1A3F18C9002E9A27 /* CashTipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64049FC51A3F18C9002E9A27 /* CashTip */ = {
+			isa = PBXGroup;
+			children = (
+				64049FCA1A3F18C9002E9A27 /* AppDelegate.h */,
+				64049FCB1A3F18C9002E9A27 /* AppDelegate.m */,
+				64049FEC1A3F18F8002E9A27 /* Source */,
+				64049FD01A3F18C9002E9A27 /* Main.storyboard */,
+				64049FD31A3F18C9002E9A27 /* Images.xcassets */,
+				64049FD51A3F18C9002E9A27 /* LaunchScreen.xib */,
+				64049FC61A3F18C9002E9A27 /* Supporting Files */,
+			);
+			path = CashTip;
+			sourceTree = "<group>";
+		};
+		64049FC61A3F18C9002E9A27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64904EB91A3F57290018CA75 /* Resources */,
+				64904EAB1A3F3FAF0018CA75 /* employeesDB.plist */,
+				64049FC71A3F18C9002E9A27 /* Info.plist */,
+				64049FC81A3F18C9002E9A27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64049FDF1A3F18C9002E9A27 /* CashTipTests */ = {
+			isa = PBXGroup;
+			children = (
+				64049FE21A3F18C9002E9A27 /* CashTipTests.m */,
+				64049FE01A3F18C9002E9A27 /* Supporting Files */,
+			);
+			path = CashTipTests;
+			sourceTree = "<group>";
+		};
+		64049FE01A3F18C9002E9A27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64049FE11A3F18C9002E9A27 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64049FEC1A3F18F8002E9A27 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				64049FED1A3F18F8002E9A27 /* Model */,
+				64049FEE1A3F18F8002E9A27 /* ViewControllers */,
+				64904EAD1A3F46700018CA75 /* Utilities */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		64049FED1A3F18F8002E9A27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64904EA81A3F3E0F0018CA75 /* CTEngine.h */,
+				64904EA91A3F3E0F0018CA75 /* CTEngine.m */,
+				64049FEF1A3F190C002E9A27 /* CTEmployee.h */,
+				64049FF01A3F190C002E9A27 /* CTEmployee.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64049FEE1A3F18F8002E9A27 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				64904EA51A3F1BF60018CA75 /* CTLandingViewController.h */,
+				64904EA61A3F1BF60018CA75 /* CTLandingViewController.m */,
+				64904EB31A3F4B820018CA75 /* CTEmployeeViewController.h */,
+				64904EB41A3F4B820018CA75 /* CTEmployeeViewController.m */,
+				64904EB61A3F4B8F0018CA75 /* CTAddTipViewController.h */,
+				64904EB71A3F4B8F0018CA75 /* CTAddTipViewController.m */,
+				64904EC81A3F61A80018CA75 /* CTTipCodeListViewController.h */,
+				64904EC91A3F61A80018CA75 /* CTTipCodeListViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		64904EAD1A3F46700018CA75 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				64904EAE1A3F46700018CA75 /* UIAlertView Additions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		64904EAE1A3F46700018CA75 /* UIAlertView Additions */ = {
+			isa = PBXGroup;
+			children = (
+				64904EAF1A3F46700018CA75 /* MKBlockAdditions.h */,
+				64904EB01A3F46700018CA75 /* UIAlertView+MKBlockAdditions.h */,
+				64904EB11A3F46700018CA75 /* UIAlertView+MKBlockAdditions.m */,
+			);
+			path = "UIAlertView Additions";
+			sourceTree = "<group>";
+		};
+		64904EB91A3F57290018CA75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64904EBA1A3F57290018CA75 /* profile1.png */,
+				64904EBB1A3F57290018CA75 /* profile2.png */,
+				64904EBC1A3F57290018CA75 /* profile3.png */,
+				64904EBD1A3F57290018CA75 /* profile4.png */,
+				64904EBE1A3F57290018CA75 /* profile5.png */,
+				64904ECB1A3F6F630018CA75 /* profile6.png */,
+				64904ECC1A3F6F630018CA75 /* profile7.png */,
+				64904ECD1A3F6F630018CA75 /* profile8.png */,
+				64904ECE1A3F6F630018CA75 /* profile9.png */,
+				64904ECF1A3F6F630018CA75 /* profile10.png */,
+				64904ED01A3F6F630018CA75 /* profile11.png */,
+				64904ED11A3F6F630018CA75 /* profile12.png */,
+				64904EC41A3F5E550018CA75 /* 37x-Checkmark.png */,
+				64904EC51A3F5E550018CA75 /* 37x-Checkmark@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B3840C029C180D607DE6B0F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06B89274DBFE35E1CBEA3BA1 /* Pods-CashTip.debug.xcconfig */,
+				2E86EC51D16255AB734CCBFC /* Pods-CashTip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9DE0A7A51B2499216651A91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D57F366EC776079A7C34834 /* libPods-CashTip.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64049FC21A3F18C9002E9A27 /* CashTip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64049FE61A3F18C9002E9A27 /* Build configuration list for PBXNativeTarget "CashTip" */;
+			buildPhases = (
+				3470C7A2BBC6D66B6589207A /* Check Pods Manifest.lock */,
+				64049FBF1A3F18C9002E9A27 /* Sources */,
+				64049FC01A3F18C9002E9A27 /* Frameworks */,
+				64049FC11A3F18C9002E9A27 /* Resources */,
+				3E165488A00412518DAE20CE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashTip;
+			productName = CashTip;
+			productReference = 64049FC31A3F18C9002E9A27 /* CashTip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64049FDB1A3F18C9002E9A27 /* CashTipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64049FE91A3F18C9002E9A27 /* Build configuration list for PBXNativeTarget "CashTipTests" */;
+			buildPhases = (
+				64049FD81A3F18C9002E9A27 /* Sources */,
+				64049FD91A3F18C9002E9A27 /* Frameworks */,
+				64049FDA1A3F18C9002E9A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64049FDE1A3F18C9002E9A27 /* PBXTargetDependency */,
+			);
+			name = CashTipTests;
+			productName = CashTipTests;
+			productReference = 64049FDC1A3F18C9002E9A27 /* CashTipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64049FBB1A3F18C9002E9A27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Synclovis;
+				TargetAttributes = {
+					64049FC21A3F18C9002E9A27 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					64049FDB1A3F18C9002E9A27 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 64049FC21A3F18C9002E9A27;
+					};
+				};
+			};
+			buildConfigurationList = 64049FBE1A3F18C9002E9A27 /* Build configuration list for PBXProject "CashTip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64049FBA1A3F18C9002E9A27;
+			productRefGroup = 64049FC41A3F18C9002E9A27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64049FC21A3F18C9002E9A27 /* CashTip */,
+				64049FDB1A3F18C9002E9A27 /* CashTipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64049FC11A3F18C9002E9A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64904ED81A3F6F630018CA75 /* profile12.png in Resources */,
+				64904ED71A3F6F630018CA75 /* profile11.png in Resources */,
+				64904EC01A3F57290018CA75 /* profile2.png in Resources */,
+				64904EC11A3F57290018CA75 /* profile3.png in Resources */,
+				64904ED61A3F6F630018CA75 /* profile10.png in Resources */,
+				64904ED41A3F6F630018CA75 /* profile8.png in Resources */,
+				64904ED51A3F6F630018CA75 /* profile9.png in Resources */,
+				64904EC71A3F5E550018CA75 /* 37x-Checkmark@2x.png in Resources */,
+				64904ED31A3F6F630018CA75 /* profile7.png in Resources */,
+				64904EAC1A3F3FAF0018CA75 /* employeesDB.plist in Resources */,
+				64904EC31A3F57290018CA75 /* profile5.png in Resources */,
+				64904EC61A3F5E550018CA75 /* 37x-Checkmark.png in Resources */,
+				64904ED21A3F6F630018CA75 /* profile6.png in Resources */,
+				64049FD21A3F18C9002E9A27 /* Main.storyboard in Resources */,
+				64904EC21A3F57290018CA75 /* profile4.png in Resources */,
+				64049FD71A3F18C9002E9A27 /* LaunchScreen.xib in Resources */,
+				64904EBF1A3F57290018CA75 /* profile1.png in Resources */,
+				64049FD41A3F18C9002E9A27 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64049FDA1A3F18C9002E9A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3470C7A2BBC6D66B6589207A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3E165488A00412518DAE20CE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CashTip/Pods-CashTip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64049FBF1A3F18C9002E9A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64049FF11A3F190C002E9A27 /* CTEmployee.m in Sources */,
+				64049FCC1A3F18C9002E9A27 /* AppDelegate.m in Sources */,
+				64904EAA1A3F3E0F0018CA75 /* CTEngine.m in Sources */,
+				64049FC91A3F18C9002E9A27 /* main.m in Sources */,
+				64904ECA1A3F61A80018CA75 /* CTTipCodeListViewController.m in Sources */,
+				64904EA71A3F1BF60018CA75 /* CTLandingViewController.m in Sources */,
+				64904EB21A3F46700018CA75 /* UIAlertView+MKBlockAdditions.m in Sources */,
+				64904EB51A3F4B820018CA75 /* CTEmployeeViewController.m in Sources */,
+				64904EB81A3F4B8F0018CA75 /* CTAddTipViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64049FD81A3F18C9002E9A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64049FE31A3F18C9002E9A27 /* CashTipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64049FDE1A3F18C9002E9A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64049FC21A3F18C9002E9A27 /* CashTip */;
+			targetProxy = 64049FDD1A3F18C9002E9A27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64049FD01A3F18C9002E9A27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64049FD11A3F18C9002E9A27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64049FD51A3F18C9002E9A27 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64049FD61A3F18C9002E9A27 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64049FE41A3F18C9002E9A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64049FE51A3F18C9002E9A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64049FE71A3F18C9002E9A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B89274DBFE35E1CBEA3BA1 /* Pods-CashTip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Amit Pandey (NWZ5P78B8F)";
+				INFOPLIST_FILE = CashTip/Info.plist;
+				INSTALL_OWNER = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "66ed8b4f-0526-45d6-8ee2-859975c58a6b";
+			};
+			name = Debug;
+		};
+		64049FE81A3F18C9002E9A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E86EC51D16255AB734CCBFC /* Pods-CashTip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Amit Pandey (NWZ5P78B8F)";
+				INFOPLIST_FILE = CashTip/Info.plist;
+				INSTALL_OWNER = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "66ed8b4f-0526-45d6-8ee2-859975c58a6b";
+			};
+			name = Release;
+		};
+		64049FEA1A3F18C9002E9A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CashTipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashTip.app/CashTip";
+			};
+			name = Debug;
+		};
+		64049FEB1A3F18C9002E9A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CashTipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashTip.app/CashTip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64049FBE1A3F18C9002E9A27 /* Build configuration list for PBXProject "CashTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64049FE41A3F18C9002E9A27 /* Debug */,
+				64049FE51A3F18C9002E9A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64049FE61A3F18C9002E9A27 /* Build configuration list for PBXNativeTarget "CashTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64049FE71A3F18C9002E9A27 /* Debug */,
+				64049FE81A3F18C9002E9A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64049FE91A3F18C9002E9A27 /* Build configuration list for PBXNativeTarget "CashTipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64049FEA1A3F18C9002E9A27 /* Debug */,
+				64049FEB1A3F18C9002E9A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64049FBB1A3F18C9002E9A27 /* Project object */;
+}
