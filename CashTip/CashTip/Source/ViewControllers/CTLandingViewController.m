@@ -29,18 +29,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"Cash Tip";
+    self.title = @"Welcome";
     self.tipCodeInputTextField.layer.borderColor = [[UIColor colorWithRed:39.0/255.0 green:173.0/255.0 blue:204.0/255.0 alpha:1.0] CGColor];
     self.tipCodeInputTextField.layer.borderWidth = 1.0;
     self.containerWidthConstraint.constant = self.view.frame.size.width;
-    self.containerHeightConstraint.constant = self.view.frame.size.height-64;
+    self.containerHeightConstraint.constant = self.view.frame.size.height-20;
     [self.view layoutIfNeeded];
     [self registerForKeyboardNotifications];
     
     self.tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGestureRecognized:)];
- 
-    UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Codes" style:UIBarButtonItemStyleDone target:self action:@selector(codesSelected:)];
-    self.navigationItem.rightBarButtonItem = barButtonItem;
+    self.navigationController.navigationBarHidden = YES;
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
 }
 
 - (void)registerForKeyboardNotifications {
@@ -81,16 +84,15 @@
 }
 
 - (IBAction)verifyTipCode:(id)sender {
-    [self.view endEditing:YES];
     
-    if (self.tipCodeInputTextField.text.length <= 0) {
-        [UIAlertView alertViewWithTitle:@"Invalid Tip Code" message:@"Tip Code can't be empty. Please enter valid Tip Code." cancelButtonTitle:@"OK" otherButtonTitles:nil onDismiss:^(int buttonIndex) {
-            [self.tipCodeInputTextField becomeFirstResponder];
-        } onCancel:^{
-            [self.tipCodeInputTextField becomeFirstResponder];
-        }];
-    }
-    else {
+//    if (self.tipCodeInputTextField.text.length <= 0) {
+//        [UIAlertView alertViewWithTitle:@"Invalid Tip Code" message:@"Tip Code can't be empty. Please enter valid Tip Code." cancelButtonTitle:@"OK" otherButtonTitles:nil onDismiss:^(int buttonIndex) {
+//            [self.tipCodeInputTextField becomeFirstResponder];
+//        } onCancel:^{
+//            [self.tipCodeInputTextField becomeFirstResponder];
+//        }];
+//    }
+//    else {
         self.progressHUD = [[MBProgressHUD alloc] initWithView:self.navigationController.view];
         [self.view addSubview:self.progressHUD];
         
@@ -100,7 +102,7 @@
         self.progressHUD.mode = MBProgressHUDModeAnnularDeterminate;
         
         self.progressHUD.delegate = self;
-        self.progressHUD.labelText = @"Verifying";
+        self.progressHUD.labelText = @"Checking In";
         
         // myProgressTask uses the HUD instance to update progress
         __weak typeof(self) weakSelf = self;
@@ -110,18 +112,10 @@
             [weakSelf.progressHUD removeFromSuperview];
             weakSelf.progressHUD = nil;
             
-            if (weakSelf.selectedEmployee) {
-                [weakSelf performSegueWithIdentifier:@"showEmployeeDetails" sender:nil];
-            }
-            else {
-                [UIAlertView alertViewWithTitle:@"Invalid Tip Code" message:@"Seems like Tip Code entered is invalid. Please check valid Tip Code and try again." cancelButtonTitle:@"OK" otherButtonTitles:nil onDismiss:^(int buttonIndex) {
-                    [self.tipCodeInputTextField becomeFirstResponder];
-                } onCancel:^{
-                    [self.tipCodeInputTextField becomeFirstResponder];
-                }];
-            }
+            [weakSelf performSegueWithIdentifier:@"showEmployeeList" sender:nil];
+            [weakSelf.navigationController setNavigationBarHidden:NO animated:YES];
         }];
-    }
+//    }*/
 }
 
 - (void)hudWasHidden:(MBProgressHUD *)hud {

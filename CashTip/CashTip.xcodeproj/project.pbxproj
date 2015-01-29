@@ -14,6 +14,11 @@
 		64049FD71A3F18C9002E9A27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64049FD51A3F18C9002E9A27 /* LaunchScreen.xib */; };
 		64049FE31A3F18C9002E9A27 /* CashTipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64049FE21A3F18C9002E9A27 /* CashTipTests.m */; };
 		64049FF11A3F190C002E9A27 /* CTEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 64049FF01A3F190C002E9A27 /* CTEmployee.m */; };
+		640940871A7AB0AC00B43642 /* Hyatt-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 640940861A7AB0AC00B43642 /* Hyatt-Logo.jpg */; };
+		6409408C1A7AB62600B43642 /* Hyatt1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 640940881A7AB62600B43642 /* Hyatt1.jpg */; };
+		6409408D1A7AB62600B43642 /* Hyatt2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 640940891A7AB62600B43642 /* Hyatt2.jpg */; };
+		6409408E1A7AB62600B43642 /* Hyatt3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6409408A1A7AB62600B43642 /* Hyatt3.png */; };
+		6409408F1A7AB62600B43642 /* Hyatt4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6409408B1A7AB62600B43642 /* Hyatt4.jpg */; };
 		64904EA71A3F1BF60018CA75 /* CTLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64904EA61A3F1BF60018CA75 /* CTLandingViewController.m */; };
 		64904EAA1A3F3E0F0018CA75 /* CTEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 64904EA91A3F3E0F0018CA75 /* CTEngine.m */; };
 		64904EAC1A3F3FAF0018CA75 /* employeesDB.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64904EAB1A3F3FAF0018CA75 /* employeesDB.plist */; };
@@ -35,6 +40,7 @@
 		64904ED61A3F6F630018CA75 /* profile10.png in Resources */ = {isa = PBXBuildFile; fileRef = 64904ECF1A3F6F630018CA75 /* profile10.png */; };
 		64904ED71A3F6F630018CA75 /* profile11.png in Resources */ = {isa = PBXBuildFile; fileRef = 64904ED01A3F6F630018CA75 /* profile11.png */; };
 		64904ED81A3F6F630018CA75 /* profile12.png in Resources */ = {isa = PBXBuildFile; fileRef = 64904ED11A3F6F630018CA75 /* profile12.png */; };
+		64E2E5561A7A90610057B54F /* CTEmployeeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E2E5551A7A90610057B54F /* CTEmployeeListViewController.m */; };
 		EDDB5B358798FE9DBD4329F9 /* libPods-CashTip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D57F366EC776079A7C34834 /* libPods-CashTip.a */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +70,11 @@
 		64049FE21A3F18C9002E9A27 /* CashTipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashTipTests.m; sourceTree = "<group>"; };
 		64049FEF1A3F190C002E9A27 /* CTEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTEmployee.h; sourceTree = "<group>"; };
 		64049FF01A3F190C002E9A27 /* CTEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTEmployee.m; sourceTree = "<group>"; };
+		640940861A7AB0AC00B43642 /* Hyatt-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hyatt-Logo.jpg"; sourceTree = "<group>"; };
+		640940881A7AB62600B43642 /* Hyatt1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hyatt1.jpg; sourceTree = "<group>"; };
+		640940891A7AB62600B43642 /* Hyatt2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hyatt2.jpg; sourceTree = "<group>"; };
+		6409408A1A7AB62600B43642 /* Hyatt3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hyatt3.png; sourceTree = "<group>"; };
+		6409408B1A7AB62600B43642 /* Hyatt4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hyatt4.jpg; sourceTree = "<group>"; };
 		64904EA51A3F1BF60018CA75 /* CTLandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTLandingViewController.h; sourceTree = "<group>"; };
 		64904EA61A3F1BF60018CA75 /* CTLandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTLandingViewController.m; sourceTree = "<group>"; };
 		64904EA81A3F3E0F0018CA75 /* CTEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTEngine.h; sourceTree = "<group>"; };
@@ -92,6 +103,8 @@
 		64904ECF1A3F6F630018CA75 /* profile10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile10.png; sourceTree = "<group>"; };
 		64904ED01A3F6F630018CA75 /* profile11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile11.png; sourceTree = "<group>"; };
 		64904ED11A3F6F630018CA75 /* profile12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile12.png; sourceTree = "<group>"; };
+		64E2E5541A7A90610057B54F /* CTEmployeeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTEmployeeListViewController.h; sourceTree = "<group>"; };
+		64E2E5551A7A90610057B54F /* CTEmployeeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTEmployeeListViewController.m; sourceTree = "<group>"; };
 		6D57F366EC776079A7C34834 /* libPods-CashTip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CashTip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -202,6 +215,8 @@
 			children = (
 				64904EA51A3F1BF60018CA75 /* CTLandingViewController.h */,
 				64904EA61A3F1BF60018CA75 /* CTLandingViewController.m */,
+				64E2E5541A7A90610057B54F /* CTEmployeeListViewController.h */,
+				64E2E5551A7A90610057B54F /* CTEmployeeListViewController.m */,
 				64904EB31A3F4B820018CA75 /* CTEmployeeViewController.h */,
 				64904EB41A3F4B820018CA75 /* CTEmployeeViewController.m */,
 				64904EB61A3F4B8F0018CA75 /* CTAddTipViewController.h */,
@@ -233,6 +248,11 @@
 		64904EB91A3F57290018CA75 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				640940861A7AB0AC00B43642 /* Hyatt-Logo.jpg */,
+				640940881A7AB62600B43642 /* Hyatt1.jpg */,
+				640940891A7AB62600B43642 /* Hyatt2.jpg */,
+				6409408A1A7AB62600B43642 /* Hyatt3.png */,
+				6409408B1A7AB62600B43642 /* Hyatt4.jpg */,
 				64904EBA1A3F57290018CA75 /* profile1.png */,
 				64904EBB1A3F57290018CA75 /* profile2.png */,
 				64904EBC1A3F57290018CA75 /* profile3.png */,
@@ -354,11 +374,13 @@
 				64904ED71A3F6F630018CA75 /* profile11.png in Resources */,
 				64904EC01A3F57290018CA75 /* profile2.png in Resources */,
 				64904EC11A3F57290018CA75 /* profile3.png in Resources */,
+				6409408C1A7AB62600B43642 /* Hyatt1.jpg in Resources */,
 				64904ED61A3F6F630018CA75 /* profile10.png in Resources */,
 				64904ED41A3F6F630018CA75 /* profile8.png in Resources */,
 				64904ED51A3F6F630018CA75 /* profile9.png in Resources */,
 				64904EC71A3F5E550018CA75 /* 37x-Checkmark@2x.png in Resources */,
 				64904ED31A3F6F630018CA75 /* profile7.png in Resources */,
+				6409408E1A7AB62600B43642 /* Hyatt3.png in Resources */,
 				64904EAC1A3F3FAF0018CA75 /* employeesDB.plist in Resources */,
 				64904EC31A3F57290018CA75 /* profile5.png in Resources */,
 				64904EC61A3F5E550018CA75 /* 37x-Checkmark.png in Resources */,
@@ -366,7 +388,10 @@
 				64049FD21A3F18C9002E9A27 /* Main.storyboard in Resources */,
 				64904EC21A3F57290018CA75 /* profile4.png in Resources */,
 				64049FD71A3F18C9002E9A27 /* LaunchScreen.xib in Resources */,
+				640940871A7AB0AC00B43642 /* Hyatt-Logo.jpg in Resources */,
+				6409408D1A7AB62600B43642 /* Hyatt2.jpg in Resources */,
 				64904EBF1A3F57290018CA75 /* profile1.png in Resources */,
+				6409408F1A7AB62600B43642 /* Hyatt4.jpg in Resources */,
 				64049FD41A3F18C9002E9A27 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +446,7 @@
 				64049FF11A3F190C002E9A27 /* CTEmployee.m in Sources */,
 				64049FCC1A3F18C9002E9A27 /* AppDelegate.m in Sources */,
 				64904EAA1A3F3E0F0018CA75 /* CTEngine.m in Sources */,
+				64E2E5561A7A90610057B54F /* CTEmployeeListViewController.m in Sources */,
 				64049FC91A3F18C9002E9A27 /* main.m in Sources */,
 				64904ECA1A3F61A80018CA75 /* CTTipCodeListViewController.m in Sources */,
 				64904EA71A3F1BF60018CA75 /* CTLandingViewController.m in Sources */,
